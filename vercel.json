@@ -4,6 +4,6 @@
     { "src": "handlesong/handlesong.py", "use": "@vercel/python" }
   ],
   "routes": [
-    { "src": "/handlesong/handlesong", "dest": "handlesong/handlesong.py" }
+    { "src": "/api/handlesong", "dest": "handlesong/handlesong.py" }
   ]
 }
