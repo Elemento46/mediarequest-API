@@ -1,10 +1,10 @@
 {
     "version": 2,
     "builds": [
-      { "src": "api/handlesong.py", "use": "@vercel/python" }
+      { "src": "handlesong/handlesong.py", "use": "@vercel/python" }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "api/handlesong.py" }
+      { "src": "/(.*)", "dest": "handlesong/handlesong.py" }
     ]
   }
   
